@@ -221,9 +221,7 @@
 	            <ul id="portfolio-flters">
 	              <li data-filter="*" class="filter-active">All</li>
 	              <li data-filter=".filter-booking">GROUPWARE(팀)</li>
-	              <li data-filter=".filter-lms">CASHBOOK(개인)</li>
 	              <li data-filter=".filter-shop">SHOP(팀)</li>
-	              <li data-filter=".filter-board">BOARD(개인)</li>
 	              <li data-filter=".filter-cashbook">DIARY(개인)</li>
 	            </ul>
 	          </div>
@@ -235,12 +233,12 @@
 			        <div class="row gy-4">
 			          <div class="col-lg-6">
 			            <div class="portfolio-wrap">
-			              	<img src="assets/img/portfolio/groupware1.png" class="img-fluid" alt="">
-			              	<img src="assets/img/portfolio/groupware2.png" class="img-fluid" alt="">			              	
-			            	<img src="assets/img/portfolio/groupware3.png" class="img-fluid" alt="">      	
+			              	<img src="assets/img/portfolio/final1.png" class="img-fluid" alt="">
+			              	<img src="assets/img/portfolio/final2.png" class="img-fluid" alt="">			              	
+			            	<img src="assets/img/portfolio/final3.png" class="img-fluid" alt="">      	
 			              	
 			              	<div class="portfolio-info">
-			              		<a href="http://13.209.34.152/JoinTree/login/login" target="_blank" title="Portfolio Details"><i class="bx bx-link"></i></a>
+			              		<a href="http://http://43.203.40.210" target="_blank" title="Portfolio Details"><i class="bx bx-link"></i></a>
 		              		</div>
 		             	 </div>
 			          </div>
@@ -253,38 +251,37 @@
 			                <p><b>Spring Model2 구조 GROUPWARE</b></p>
 			              	<hr> 
 			              	<div style="margin-bottom: 25px">
-				                <a href="https://github.com/jointreeGroupware/JoinTree" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">GitHub</a>
-				                <button type="button" class="btn btn-secondary" onclick="window.open('assets/img/portfolio/groupware_erd.png')">ERD</button>
-				                <a href="http://13.209.34.152/JoinTree/login/login" class="btn btn-info" target="_blank">GROUPWARE URL</a>
+				                <a href="https://github.com/limmihyun/gdhealth" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">GitHub</a>
+				                <button type="button" class="btn btn-secondary" onclick="window.open('assets/img/portfolio/final_erd.png')">ERD</button>
+				                <a href="http://http://43.203.40.210" class="btn btn-info" target="_blank">GROUPWARE URL</a>
 			              	</div>
 			              	<b>개발 환경</b><br>
 			                <ul>
-			                	<li>OS : Windows11</li>
-			                	<li>Database : MariaDB(10.5)</li>
-			                	<li>Server : Apache Tomcat(9.0.65)</li>
-			                	<li>SDK : JDK(17.0.6)</li>
-			                	<li>Language : Java, HTML, CSS, SQL</li>
-			                	<li>Framework : JDBC, Spring, MyBatis</li>
-			                	<li>Library : kakao mapjs API, Calendar API, Chart.js API, Bootstrap, jQuery, Lombok</li>
-			                	<li>IDE : STS4, HeidiSQL</li>
-			                	<li>형상관리 : Git</li>
+			                	<li></li>MariaDB(10.5)
+			                	Apache Tomcat
+			                	JDK(17.0.6)
+			                	Java, HTML, CSS, SQL
+			                	JDBC, Spring, MyBatis
+			                	Bootstrap, jQuery, Lombok
+			                	STS4, HeidiSQL
+			                	Git</li>
 			                </ul>
 			                
 			                <hr>
 			                <b>서비스 환경</b><br>
 			                <ul>
-			                	<li>OS: Ubuntu(18.04.1)</li>
-			                	<li>Database : MariaDB(10.5)</li>
-			                	<li>Platform : AWS</li>
+			                	<li>Ubuntu(18.04.1)
+			                	MariaDB(10.5)
+			                	AWS</li>
 			                </ul>
 			                
 			                <hr>
 			                <b>프로젝트 내용</b><br>
 			                <ul>
-			                	<li>기간 : 2023.07.25 ~ 2023.09.12(7주)</li>
+			                	<li>기간 : 2023.12.20 ~ 2024.01.24(7주)</li>
 			                	<li>인원 : 5명</li>
 			                	<li>
-			                		내용 : 기업연계 현업 개발자 멘토링을 통한 Spring Model2 구조 그룹웨어 프로젝트 진행
+			                		내용 : Spring Model2 구조를 이용한 헬스센터 제작
 			                	</li>
 			                </ul>
 			                <hr>
@@ -301,43 +298,29 @@
 			                		<span>담당 기능</span>
 			                		<ul>
 			                			<li>
-			                				<span>문서결재</span>
+			                				<span>프로그램 예약</span>
 			                				<ul>
-			                					<li>문서결재 상세조회(모달창)</li>
-			                					<li>문서함 별 문서결재 리스트 출력</li>
-			                					<li>문서결재 리스트 검색 및 페이징</li>
+			                					<li>캘린더를 제작하여 프로그램 예약 가능한 날짜 조회</li>
+			                					<li>프로그램 예약 가능한 날짜를 조회 가능한 리스트 구현 및 페이지네이션</li>
+			                					<li>캘린더 다음달 / 이전달 ajax로 구현</li>
+										<li>페이지네이션 기능 ajax로 구현</li>
+										<li>프로그램 예약 페이지 구현</li>
+										<li>나의 프로그램 예약 리스트 조회 기능 추가</li>
+										<li>예약 취소 기능 ajax로 구현</li>
 			                				</ul>
 			                			</li>
 			                			<li>
-			                				<span>사원관리</span>
+			                				<span>회원권</span>
 			                				<ul>
-			                					<li>사번 자동 생성</li>
-			                					<li>사원 등록, 수정</li>
-			                					<li>사원 리스트 검색 및 조회 시 페이징</li>
-			                					<li>사원 출/퇴근 리스트 검색 및 조회 시 페이징</li>
-			                					<li>사원 연가 리스트 검색 및 조회 시 페이징</li>
-			                					<li>사원 연차 리스트 검색 및 조회 시 페이징</li>
-			                					<li>사원 근속시간, 근속일에 따른 연차 생성</li>
-			                					<li>문서결재(연가신청) 최종 결재 시 연차 차감, 연가 내역 등록</li>
+			                					<li>[고객] 회원권 조회 기능 구현</li>
+			                					<li>[고객] tosspayments API를 이용한 결제창 구현</li>
+			                					<li>[고객] 결제시 DB에 결과값 추가</li>
+			                					<li>[본사] 회원권 조회 기능 구현</li>
+			                					<li>[본사] 회원권 비활성화 / 활성화 버튼 ajax 구현</li>
+			                					<li>[본사] 회원권 추가 기능 구현</li>
 			                				</ul>
 			                			</li>
-			                			<li>
-			                				<span>근태관리</span>
-			                				<ul>
-			                					<li>출/퇴근 기록</li>
-			                					<li>사원 별 월 별 출/퇴근, 연가 리스트 조회</li>
-			                					<li>주 별, 월 별 근로시간 차트 조회</li>
-			                				</ul>
-			                			</li>
-			                			<li>
-			                				<span>게시판 CRUD</span>
-			                				<ul>
-			                					<li>공지, 자료실 게시판 CRUD</li>
-			                					<li>글작성은 권한 있는 부서에 사원만 가능 하도록 글작성 버튼 분기</li>
-			                					<li>첨부파일 업로드 및 다운로드</li>
-			                					<li>게시글 리스트 검색 및 조회 시 페이징, 첨부파일 여부에 따른 아이콘 표시</li>
-			                				</ul>
-			                			</li>
+			                
 			                		</ul>
 			                	</li>
 			                </ul>	
