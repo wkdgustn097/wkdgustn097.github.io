@@ -329,7 +329,7 @@
 			        </div>
 			      </div>
 			      
-		 		<!-- CASHBOOK -->
+		 		<!-- diary -->
 			 	<div class="container portfolio-item filter-lms">
 			        <div class="row gy-4">
 			          <div class="col-lg-6">
@@ -344,88 +344,67 @@
 			          </div>
 			          <div class="col-lg-4">
 			            <div class="portfolio-info">
-			              <h3><strong style="font-size: 35px">4.</strong>&nbsp;CASHBOOK</h3>
+			              <h3><strong style="font-size: 35px">4.</strong>&nbsp;DIARY</h3>
 			            </div>
 			            <div class="portfolio-description">
-			                <p><b>Spring Model2 구조 가계부</b></p>
+			                <p><b>Spring Model2 DIARY</b></p>
 			              	<hr> 
 			              	<div style="margin-bottom: 25px">
-				                <a href="https://github.com/SongYeJi96/cash" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">GitHub</a>
+				                <a href="https://github.com/wkdgustn097/projectDiary" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">GitHub</a>
 				                <button type="button" class="btn btn-secondary" onclick="window.open('assets/img/portfolio/cash_erd.png')">ERD</button>
 				                <a href="http://13.209.34.152/cash/login/loginForm" class="btn btn-info" target="_blank">CASHBOOK URL</a>
 			              	</div>
 			              	<b>개발 환경</b><br>
 			                <ul>
-			                	<li>OS : Windows11</li>
-			                	<li>Database : MariaDB(10.5)</li>
-			                	<li>Server : Apache Tomcat(9.0.65)</li>
-			                	<li>SDK : JDK(17.0.6)</li>
-			                	<li>Language : Java, HTML, CSS, SQL</li>
-			                	<li>Framework : JDBC, Spring, MyBatis</li>
-			                	<li>Library : Calendar API, Chart.js API, Bootstrap, jQuery, Lombok</li>
-			                	<li>IDE : STS4, HeidiSQL</li>
-			                	<li>형상관리 : Git</li>
+			                	<li>MariaDB(10.5)
+			                	Apache Tomcat
+			                	JDK(17.0.6)
+			                	Java, HTML, CSS, SQL
+			                	JDBC, Spring, MyBatis
+			                	Bootstrap, jQuery, Lombok
+			                	STS4, HeidiSQL
+			                	Git</li>
 			                </ul>
 			                
 			                <hr>
 			                <b>서비스 환경</b><br>
 			                <ul>
-			                	<li>OS: Ubuntu(18.04.1)</li>
-			                	<li>Database : MariaDB(10.5)</li>
-			                	<li>Platform : AWS</li>
+			                	<li>Ubuntu(18.04.1)
+			                	MariaDB(10.5)
+			                	AWS</li>
 			                </ul>
 			                
 			                <hr>
 			                <b>프로젝트 내용</b><br>
 			                <ul>
-			                	<li>기간 : 2023.07.25~26, 2023.09.16~21(1주)</li>
+			                	<li>기간 : 2023.12.01~2023.12.20 , 2024.01.24 ~ 2024.01.31</li>
 			                	<li>
-			                		내용 : Spring, model2 구조 수업 이후 수업내용을 바탕으로 model2 구조의 가계부 구현 
+			                		내용 : Spring, model2 구조 수업 이후 수업내용을 바탕으로 Spring 구조의 Diary 구현
 			                	</li>
 			                </ul>
 			                <hr>
 							<b>기능</b><br>
 			                <ul>
 			                	<li>
-			                		<span>로그인/로그아웃</span>
+			                		<span>로그인/로그아웃/회원가입</span>
 			                		<ul>
 			                			<li>세션을 사용한 로그인/로그아웃</li>
-			                			<li>Ajax를 사용한 로그인 시 아이디, 비밀번호 일치 확인 검사</li>
-			                			<li>쿠키에 아이디값 저장하여 아이디값 기억</li>
-			                			<li>일부 페이지 로그인 후 사용 가능 하도록 필터에 페이지 분기</li>
-			                			<li>아이디 level값에 따른 관리자 메뉴 접속 여부 분기</li>
+								<li>회원가입, 회원탈퇴 기능</li>
 			                		</ul>
 			                	</li>
 			                	<li>
-			                		<span>회원가입</span>
+			                		<span>캘린더</span>
 			                		<ul>
-			                			<li>jQuery를 사용한 요청값 유효성 검사</li>
-			                			<li>Ajax를 사용한 아이디 중복검사</li>
+			                			<li>달력에 일 별 스케줄 내역 조회 </li>
 			                		</ul>
 			                	</li>
 			                	<li>
-			                		<span>가계부 CRUD</span>
+			                		<span>공지사항 CRUD</span>
 			                		<ul>
-			                			<li>Calendar API 사용하여 달력 구현</li>
-			                			<li>달력에 일 별 수입/지출 내역 조회 </li>
-			                			<li>월 별 수입/지출/잔액 조회</li>
-			                			<li>Chart.js API 사용하여 월 별 수입/지출 내역 통계 차트 조회</li>
-			                		</ul>
-			                	</li>
-			                	<li>
-			                		<span>해시태그</span>
-			                		<ul>
-			                			<li>가계부 등록 시 해시태그 추출하여 저장</li>
-			                			<li>해시태그 별 리스트 조회</li>
-			                		</ul>
-			                	</li>
-			                	<li>
-			                		<span>게시판 CRUD</span>
-			                		<ul>
-			                			<li>문의 게시판 CRUD</li>
-			                			<li>게시판 리스트 조건에 따른 검색</li>
+			                			<li>공지사항 CRUD</li>
 			                			<li>게시글 리스트 조회 시 페이징</li>
-			                			<li>아이디 Level 값에 따른 문의관리 페이지 활성화 분기</li>
+								<li>공지사항에 고객이 댓글 작성 가능</li>
+								<li>비밀댓글 선택시 해당 고객과 직원만 보기 가능</li>
 			                		</ul>
 			                	</li>
 			                </ul>
